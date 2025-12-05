@@ -24,6 +24,12 @@ O objetivo é demonstrar demínio de HTML + CSS + JS puro na criação de interf
 
 ---
 
+## 📱 Preview do Projeto
+
+![Preview do Projeto](assets/preview-devlinks.gif)
+
+---
+
 ## 👍 Mini Componente Reutilizável
 
 O projeto foi desenvolvido para ser facilmente reutilizado em outros sites ou portfólios.
