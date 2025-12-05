@@ -26,7 +26,7 @@ O objetivo é demonstrar demínio de HTML + CSS + JS puro na criação de interf
 
 ## 📱 Preview do Projeto
 
-[Preview do Projeto](assets/Preview-DevLinks.mp4)
+![Preview do Projeto](assets/Preview-DevLinks.mp4)
 
 ---
 
