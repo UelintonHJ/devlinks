@@ -1,4 +1,4 @@
-# 🔗 [DevLinks Responsivo - Mobile First](https://uelintonhj.github.io/devlinks-responsivo/)
+# 🔗 [DevLinks Responsivo - Mobile First](https://devlinks-responsivo.vercel.app/)
 
 O **DevLinks Responsivo** é um mini projeto inspirado no Linktree, criado com foco em **mobile first**, design moderno e troca de temas (dark/light mode).
 O objetivo é demonstrar demínio de HTML + CSS + JS puro na criação de interfaces limpas, funcionais e reutilizáveis.
