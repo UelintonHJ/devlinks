@@ -33,6 +33,11 @@ body {
     transition: 0.3s ease;
 }
 
+header {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .display-theme {
     display: flex;
     justify-content: right;
@@ -125,4 +130,5 @@ footer {
     margin-top: 40px;
     opacity: 0.5;
     font-size: 0.8rem;
+    text-align: center;
 }
