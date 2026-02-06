@@ -1,21 +1,21 @@
 :root {
-    --bg: #003049;
-    --text: #F1FAEE;
-    --card: #0D1B2A;
-    --border: #0A9396;
-    --highlight: #184E77;
-    --bgTheme: #F1FAEE;
-    --colorTheme: #0D1B2A;
+    --color-bg: #003049;
+    --color-text: #F1FAEE;
+    --color-surface: #0D1B2A;
+    --color-border: #0A9396;
+    --color-accent: #184E77;
+    --color-toggle-bg: #F1FAEE;
+    --color-toggle-text: #0D1B2A;
 }
 
 .light {
-    --bg: #F1FAEE;
-    --text: #0D1B2A;
-    --card: #F1FAEE;
-    --border: #003049;
-    --highlight: #CAF0F8;
-    --bgTheme: #003049;
-    --colorTheme: #F1FAEE;
+    --color-bg: #F1FAEE;
+    --color-text: #0D1B2A;
+    --color-surface: #F1FAEE;
+    --color-border: #003049;
+    --color-accent: #CAF0F8;
+    --color-toggle-bg: #003049;
+    --color-toggle-text: #F1FAEE;
 }
 
 * {
@@ -27,8 +27,8 @@
 body {
     height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(140deg, var(--bg), #0096C7);
-    color: var(--text);
+    background: linear-gradient(140deg, var(--color-bg), #0096C7);
+    color: var(--color-text);
     padding: 20px;
     transition: 0.3s ease;
 }
@@ -48,8 +48,8 @@ header {
     padding: 8px 10px;
     border: none;
     border-radius: 100%;
-    background: var(--bgTheme);
-    color: var(--colorTheme);
+    background: var(--color-toggle-bg);
+    color: var(--color-toggle-text);
     font-weight: bold;
     cursor: pointer;
 }
@@ -110,14 +110,14 @@ p:nth-of-type(2) {
 }
 
 .link {
-    background-color: var(--card);
+    background-color: var(--color-surface);
     padding: 14px;
     border-radius: 8px;
     text-decoration: none;
-    color: var(--text);
+    color: var(--color-text);
     font-weight: bold;
     transition: transform 0.25s ease, background 0.2s ease;
-    border: 1px solid var(--border);
+    border: 1px solid var(--color-border);
 }
 
 .link:hover {
