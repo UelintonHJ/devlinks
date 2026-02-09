@@ -59,6 +59,14 @@ header {
     height: 24px;
 }
 
+#toggleTheme:hover {
+    transform: scale(1.05);
+}
+
+#toggleTheme:active {
+    transform: scale(0.95);
+}
+
 .icon-dark {
     display: none;
 }
