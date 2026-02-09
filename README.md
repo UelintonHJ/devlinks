@@ -16,7 +16,7 @@ Com o tempo, percebi que algumas decisões poderiam gerar problemas de manutenç
 Refatorei incrementalmente:
 
 * Tornei o estado do tema explícito e persistente usando localStorage.
-* Melhorei a semântica do HTML (&003;h2&003E; para subtítulo, <p class="bio"> para descrição).
+* Melhorei a semântica do HTML (&#139;h2&#155; para subtítulo, &#139;p class="bio"&#155; para descrição).
 * Evitei seletores frágeis no CSS, organizando tokens de design (--color-bg, --color-accent).
 * Adicionei pequenos feedbacks visuais (hover e active) no botão de alternar tema.
 
