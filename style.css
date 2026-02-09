@@ -99,15 +99,17 @@ h1 {
     margin-bottom: 6px;
 }
 
-p {
-    opacity: 0.9;
-    margin-bottom: 10px;
-    text-wrap: balance;
-}
-
 .subtitle {
     font-size: 0.95rem;
     opacity: 0.8;
+}
+
+.bio {
+    font-size: 0.9rem;
+    opacity: 0.85;
+    margin-bottom: 20px;
+    text-wrap: balance;
+    line-height: 1.4;
 }
 
 .links {
